@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".confirmation"
+    android:background="@drawable/gradientlist"
+    android:id="@+id/layout3">
+
+    <TextView
+        android:id="@+id/confimation"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/baseline_shopping_cart_24"
+        android:gravity="center"
+
+        android:fontFamily="@font/dancing_bold"
+        android:text="Commande confirmé ! Merci pour votre achat"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/dx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/text"
+        android:text="Déconnexion" />
+</LinearLayout>

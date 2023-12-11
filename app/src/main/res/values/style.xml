@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <!-- Base application theme -->
+        <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+            <item name="colorPrimary">#3498db</item> <!-- Couleur de la barre d'action -->
+            <item name="colorPrimaryDark">#2980b9</item> <!-- Couleur de la barre de statut -->
+            <item name="colorAccent">#FFFFFF</item> <!-- Couleur d'accentuation -->
+        </style>
+
+        <!-- Style personnalisé pour les boutons -->
+        <style name="MyButtonStyle" parent="Widget.AppCompat.Button">
+            <item name="android:textColor">#130E0E</item> <!-- Couleur de texte pour les boutons -->
+            <item name="android:background">#3498db</item> <!-- Couleur de fond pour les boutons -->
+        </style>
+
+
+        <!-- Ajoutez d'autres styles personnalisés ici -->
+
+
+
+
+
+</resources>

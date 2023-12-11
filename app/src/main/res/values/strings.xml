@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ProjetFacGestionProduit</string>
+    <string name="password" />
+    <string name="click_to_register" />
+    <string name="email" />
+    <string name="login" />
+    <string name="click_to_login" />
+    <string name="register" />
+
+</resources>

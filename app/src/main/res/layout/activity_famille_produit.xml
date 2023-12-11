@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".familleProduit"
+
+    android:background="@drawable/gradientlist"
+    android:id="@+id/layout4">
+
+
+    <TextView
+        android:id="@+id/famillep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="80dp"
+        android:fontFamily="@font/dancing_bold"
+        android:padding="5dp"
+        android:text="Famille produits"
+        android:textColor="@color/white"
+        android:textSize="36sp" />
+
+
+    <Button
+        android:id="@+id/cartes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Les cartes de developement"
+        android:backgroundTint="@color/text"/>
+
+    <Button
+        android:id="@+id/moduleCapteur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modules et Capteurs"
+        android:backgroundTint="@color/text"/>
+
+    <Button
+        android:id="@+id/Prototypage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prototypage"
+        android:backgroundTint="@color/text"/>
+        <Button
+            android:id="@+id/Retour"
+            android:layout_width="match_parent"
+
+
+            android:layout_height="wrap_content"
+            android:text="Annuler"
+            android:backgroundTint="@color/text"
+            />
+
+
+
+    </LinearLayout>
+
